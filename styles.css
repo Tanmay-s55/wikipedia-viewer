@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300&display=swap'); */
+
+*{
+    font-family: 'Raleway',sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+body{
+    padding: 2em;
+    margin: 0;
+    text-align: center;
+}
+
+.header{
+    font-size: 2.5em;
+}
+
+h3{
+    text-align: left;
+}
+
+footer{
+    font-weight: bold;
+    font-size: 14px;
+    width: 100%;
+    margin-top: 1em;
+    text-shadow: #c0c0c0 1px 0 10px;
+}
+
+/* input[type="text"] {
+    outline: none;
+} */
+
+#input-el{
+    font-size: 1rem;
+    width: 85%;
+    padding: 0.5em;
+    border: none;
+    outline-color: #1c1b1b;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.result{
+    margin: 1em auto;
+    padding: 1em;
+    min-width: 80vw;
+    max-width: 80vw;
+    background: #fff;
+    border-left: 5px solid black;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.32);
+}
+
+.result:hover{
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.40);
+}
+
+.search-bar{
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+    padding: 5px;
+    border: 1px solid #f4f4f4;
+    margin: 40px auto;
+    box-shadow: 0px 2px 4px #dfdfdf;
+}
+
+.search-bar:hover{
+    box-shadow: 0px 3px 5px #c0c0c0;
+}
+
+#search-btn{
+    padding: 0.75em;
+    border: none;
+    outline-color: #1c1b1b;
+    background-color: #fcfcfc;
+    cursor: pointer;
+}
+
+.title{
+    font-weight: 500;
+}
+
+.show{
+    visibility: visible;
+}
+
+.hide{
+    visibility: hidden;
+}
